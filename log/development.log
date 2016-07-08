@@ -1350,3 +1350,141 @@ Started GET "/assets/jquery_ujs.self.js?body=1" for 98.161.17.233 at 2016-07-08 
 
 
 Started GET "/assets/application.self.js?body=1" for 98.161.17.233 at 2016-07-08 02:33:39 +0000
+
+
+Started GET "/assets/rails.png" for 98.161.17.233 at 2016-07-08 02:49:58 +0000
+
+
+Started GET "/assets/rails.png" for 98.161.17.233 at 2016-07-08 02:50:29 +0000
+
+
+Started GET "/assets/rails.png" for 98.161.17.233 at 2016-07-08 02:54:36 +0000
+
+
+Started GET "/assets/rails.png" for 98.161.17.233 at 2016-07-08 02:54:55 +0000
+
+SyntaxError (/home/ubuntu/workspace/rottenpotatoes/config/routes.rb:5: syntax error, unexpected ':', expecting keyword_end
+  root '/' :to 'movies#index'
+            ^):
+  config/routes.rb:5: syntax error, unexpected ':', expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (106.4ms)
+
+
+Started GET "/assets/rails.png" for 98.161.17.233 at 2016-07-08 02:56:22 +0000
+
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  config/routes.rb:5:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (155.2ms)
+
+
+Started GET "/assets/rails.png" for 98.161.17.233 at 2016-07-08 02:57:34 +0000
+
+
+Started GET "/assets/rails.png" for 98.161.17.233 at 2016-07-08 02:57:50 +0000
+
+
+Started GET "/assets/rails.png" for 98.161.17.233 at 2016-07-08 03:00:05 +0000
+
+
+Started GET "/assets/rails.png" for 98.161.17.233 at 2016-07-08 03:01:09 +0000
+
+SyntaxError (/home/ubuntu/workspace/rottenpotatoes/config/routes.rb:3: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+  root  :to 'movies#index'
+             ^):
+  config/routes.rb:3: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (125.9ms)
+
+
+Started GET "/assets/rails.png" for 98.161.17.233 at 2016-07-08 03:10:44 +0000
+
+
+Started GET "/assets/rails.png" for 98.161.17.233 at 2016-07-08 03:11:14 +0000
+
+
+Started GET "/assets/rails.png" for 98.161.17.233 at 2016-07-08 03:11:30 +0000
+
+
+Started GET "/assets/rails.png" for 98.161.17.233 at 2016-07-08 03:13:47 +0000
+
+
+Started GET "/" for 98.161.17.233 at 2016-07-08 03:14:37 +0000
+
+ArgumentError (You should not use the `match` method in your router without specifying an HTTP method.
+If you want to expose your action to both GET and POST, add `via: [:get, :post]` option.
+If you want to expose your action to GET, use `get` in the router:
+  Instead of: match "controller#action"
+  Do: get "controller#action"):
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (103.5ms)
+
+
+Started GET "/" for 98.161.17.233 at 2016-07-08 03:15:31 +0000
+
+ArgumentError (You should not use the `match` method in your router without specifying an HTTP method.
+If you want to expose your action to both GET and POST, add `via: [:get, :post]` option.
+If you want to expose your action to GET, use `get` in the router:
+  Instead of: match "controller#action"
+  Do: get "controller#action"):
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (93.8ms)
+
+
+Started GET "/" for 98.161.17.233 at 2016-07-08 03:16:07 +0000
+
+SyntaxError (/home/ubuntu/workspace/rottenpotatoes/config/routes.rb:2: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+   match '/', :to => get 'movies#index'
+                          ^):
+  config/routes.rb:2: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (96.1ms)
+
+
+Started GET "/" for 98.161.17.233 at 2016-07-08 03:18:39 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (12.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (76.0ms)
+Completed 200 OK in 238ms (Views: 102.4ms | ActiveRecord: 18.6ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 98.161.17.233 at 2016-07-08 03:18:40 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 98.161.17.233 at 2016-07-08 03:18:40 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 98.161.17.233 at 2016-07-08 03:18:40 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 98.161.17.233 at 2016-07-08 03:18:40 +0000
